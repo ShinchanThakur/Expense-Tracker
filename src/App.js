@@ -39,13 +39,13 @@ function App() {
   // return React.createElement(
   //   'div',
   //   {},
-  //   React.createElement('h2', {}, "Learning React"),
+  //   React.createElement('h2', {}, "Expense Tracker"),
   //   React.createElement(Expenses, { items: expenses })
   // );
 
   return (
     <div>
-      <h2>Learning React</h2>
+      <h2>Expense Tracker</h2>
       <NewExpense onAddExpense={addNewExpenseHandler} />
       <Expenses expenses={expenses} />
     </div>
